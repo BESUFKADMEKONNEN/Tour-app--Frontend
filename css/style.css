@@ -35,15 +35,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 112.5em) {
+    html {
+      font-size: 75%; } }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
-  @media (max-width: 112.5em) {
-    html {
-      font-size: 75%; } }
 
 body {
   box-sizing: border-box;
@@ -231,7 +231,8 @@ x .btn:active, .btn:hover {
   -moz-perspective: 150rem;
   perspective: 150rem;
   position: relative;
-  height: 52rem; }
+  height: 52rem;
+  width: 33rem; }
   .card__side {
     height: 52rem;
     transition: all 0.8s;
@@ -396,7 +397,7 @@ x .btn:active, .btn:hover {
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
-  padding: 2.5rem;
+  padding: 2rem;
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -887,9 +888,6 @@ x .btn:active, .btn:hover {
   transform: skewY(-7deg); }
   .section_features > * {
     transform: skewY(7deg); }
-  @media (max-width: 56.25em) {
-    .section_features {
-      padding: 10rem 0; } }
 
 .section-tours {
   background-color: #f7f7f7;
@@ -917,7 +915,9 @@ x .btn:active, .btn:hover {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  width: 70vw;
+  background-size: cover; }
   @media (max-width: 75em) {
     .book {
       background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg); } }

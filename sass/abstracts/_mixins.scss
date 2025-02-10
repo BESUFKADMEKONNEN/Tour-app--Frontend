@@ -21,7 +21,7 @@
 
 @mixin respond($breakpoint) {
   @if $breakpoint==phone {
-    //600px   
+    //600px
     @media (max-width: 37.5em) {
       @content;
     }
@@ -49,16 +49,11 @@
   }
 }
 
-
-@include respond(phone){
-
+@include respond(phone) {
 }
-@include respond(tab-port){
-
+@include respond(tab-port) {
 }
-@include respond(tab-land){
-
+@include respond(tab-land) {
 }
-@include respond(big-desktop){
- 
+@include respond(big-desktop) {
 }

@@ -21,14 +21,8 @@
   background-position: top;
   transform: skewY(-7deg);
 
-
-  
   & > * {
     transform: skewY(7deg);
-  }
-
-  @include respond(tab-port) {
-    padding: 10rem 0;
   }
 
   //   clip-path: polygon(0% 15%,100% 0%,100% 85%,0% 100%);
@@ -79,6 +73,8 @@
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+  width: 70vw;
+  background-size: cover;
 
   @include respond(tab-land) {
     background-image: linear-gradient(
@@ -94,7 +90,7 @@
     background-image: linear-gradient(
         to right,
         rgba($color-white, 0.9) 0%,
-        rgba($color-white, 0.9) 100%,
+        rgba($color-white, 0.9) 100%
       ),
       url(../img/nat-10.jpg);
   }
@@ -106,7 +102,7 @@
     @include respond(tab-land) {
       width: 65%;
     }
-     @include respond(tab-land) {
+    @include respond(tab-land) {
       width: 100%;
     }
   }
