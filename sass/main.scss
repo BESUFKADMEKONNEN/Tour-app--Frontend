@@ -1,11 +1,11 @@
-@import "abstracts/function";
+@import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "base/animation";
+@import "base/animations";
 @import "base/base";
 @import "base/typography";
-@import "base/utility";
+@import "base/utilities";
 
 @import "components/bg-video";
 @import "components/button";
@@ -16,9 +16,10 @@
 @import "components/popup";
 @import "components/story";
 
-@import "layouts/footer";
-@import "layouts/grid";
-@import "layouts/headers";
-@import "layouts/navigation";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
 
 @import "pages/home";
+
